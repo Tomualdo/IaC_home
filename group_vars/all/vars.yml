@@ -1,4 +1,5 @@
 username: dizzy
+
 packages:
   - openvpn
   - vim
@@ -6,3 +7,9 @@ packages:
   - htop
   - tmux
   - speedtest-cli
+  - stow
+
+dotfiles_repo: https://github.com/Tomualdo/dotfiles
+
+shell: /usr/bin/fish
+
