@@ -1,0 +1,6 @@
+---
+- hosts: all
+  become: yes #sudo
+
+  tasks:
+    - import_tasks: tasks/essential.yml
